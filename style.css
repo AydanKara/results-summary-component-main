@@ -50,7 +50,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
   box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.8);
@@ -176,5 +175,32 @@ body {
 /*! responsive */
 
 @media (max-width: 576px) {
-  
+  .component {
+    min-width: 100%;
+  }
+  .box-container {
+    width: 100%;
+    flex-direction: column;
+    box-shadow: unset;
+    border-radius: unset;
+  }
+  .result {
+    padding: 1.25rem 1.875rem;
+    gap: 1.25rem;
+    width: 100%;
+    border-radius: unset;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+
+  }
+  .summary {
+    min-width: 100%;
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1875rem;
+  }
+  .summary button {
+    margin: 0;
+  }
 }
