@@ -176,7 +176,7 @@ body {
 
 @media (max-width: 576px) {
   .component {
-    min-width: 100%;
+    width: 100%;
   }
   .box-container {
     width: 100%;
@@ -191,10 +191,9 @@ body {
     border-radius: unset;
     border-bottom-left-radius: 1.25rem;
     border-bottom-right-radius: 1.25rem;
-
   }
   .summary {
-    min-width: 100%;
+    width: 100%;
     padding: 1.25rem 1.875rem;
     display: flex;
     flex-direction: column;
