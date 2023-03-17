@@ -113,9 +113,11 @@ body {
   flex-direction: column;
   gap: 1.25rem;
 }
+
 .summary h2 {
   font-size: 1.3125rem;
 }
+
 .summary ul {
   display: flex;
   flex-direction: column;
@@ -129,34 +131,42 @@ body {
   padding: .625rem;
   border-radius: .375rem;
 }
+
 .summary ul li span {
   color: hsl(0, 0%, 45%);
 }
+
 .summary ul li strong {
   color: hsl(224, 30%, 27%);
 }
+
 .summary .item {
   display: flex;
   align-items: center;
   gap: .625rem;
 }
+
 .reaction {
   background-color: hsla(0, 100%, 67%, 0.2);
   color: hsl(0, 100%, 67%);
   border-radius: .375rem;
 }
+
 .memory {
   background-color: hsla(39, 100%, 56%, 0.2);
   color: hsl(39, 100%, 56%);
 }
+
 .verbal {
   background-color: hsla(166, 100%, 37%, 0.2);
   color: hsl(166, 100%, 37%);
 }
+
 .visual {
   background-color: hsla(234, 85%, 45%, 0.2);
   color: hsl(234, 85%, 45%);
 }
+
 .summary button {
   padding: .625rem;
   margin: .75rem 0;
@@ -166,10 +176,11 @@ body {
   border-radius: 1.25rem;
   cursor: pointer;
 }
+
 .summary button:hover {
   background: linear-gradient(180deg,
-  hsl(252, 100%, 67%) 0%,
-  hsl(241, 81%, 54%) 100%);
+      hsl(252, 100%, 67%) 0%,
+      hsl(241, 81%, 54%) 100%);
 }
 
 /*! responsive */
@@ -178,12 +189,14 @@ body {
   .component {
     width: 100%;
   }
+
   .box-container {
     width: 100%;
     flex-direction: column;
     box-shadow: unset;
     border-radius: unset;
   }
+
   .result {
     padding: 1.25rem 1.875rem;
     gap: 1.25rem;
@@ -192,6 +205,7 @@ body {
     border-bottom-left-radius: 1.25rem;
     border-bottom-right-radius: 1.25rem;
   }
+
   .summary {
     width: 100%;
     padding: 1.25rem 1.875rem;
@@ -199,6 +213,7 @@ body {
     flex-direction: column;
     gap: 1.1875rem;
   }
+
   .summary button {
     margin: 0;
   }
