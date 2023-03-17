@@ -61,9 +61,8 @@
     width: 50%;
     background-image: linear-gradient(
       180deg,
-      hsl(244deg 100% 71%) 0%,
-      hsl(243deg 100% 65%) 50%,
-      hsl(243deg 99% 59%) 100%
+      hsl(252, 100%, 67%) 0%,
+      hsl(241, 81%, 54%) 100%
     );
     border-radius: 1.25rem;
   }
@@ -91,16 +90,13 @@
   .result strong {
     color: hsl(0, 0%, 100%);
     font-size: 18px;
-    font-weight: 500;
+  }
+  .result .result-info {
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+    margin-bottom: 20px;
   }
   .summary {
     width: 50%;
-    text-align: center;
-  }
-  .box h1 {
-    color: hsl(241, 100%, 89%);
-  }
-  
-  .box-1 {
     
   }
